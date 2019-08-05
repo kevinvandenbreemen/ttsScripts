@@ -24,3 +24,6 @@ At the moment maintaining this script and prettying it up isn't a huge priority.
 
 1.  Ability to run this from any directory (right now you need to run it inside the same directory as the Dockerfile)
 2.  Rename and move the output file to directory from which user called the script
+
+# Background
+I wrote this dockerized version after I discovered that Festival seemed to crash a lot on newer versions of Ubuntu.
