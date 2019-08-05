@@ -1,7 +1,7 @@
 #!/bin/bash
 
 volname=`pwd`/data
-
+mkdir data
 cd `dirname $0`
 
 docker build --tag tts:0.1 .
