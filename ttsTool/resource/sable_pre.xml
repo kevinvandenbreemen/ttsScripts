@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE SABLE PUBLIC "-//SABLE//DTD SABLE speech mark up//EN" 
+      "Sable.v0_2.dtd"
+[]>
+<SABLE>
+<!--<SPEAKER NAME="nitech_us_slt_arctic_hts"> 
+
+Check out http://www.bell-labs.com/project/tts/sable.html for more details
+-->
+<SPEAKER NAME="kal_diphone">
