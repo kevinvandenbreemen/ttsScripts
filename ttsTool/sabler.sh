@@ -46,5 +46,5 @@ cat resource/sable_pre.xml ${updatedfile} resource/sable_post.xml > ${sablefile}
 
 echo "Converted.  Cleaning up and exiting."
 
-# rm ${updatedfile}
-# rm ${sablefile}
+rm ${updatedfile}
+rm ${sablefile}
