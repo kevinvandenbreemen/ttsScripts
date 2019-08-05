@@ -26,4 +26,4 @@ At the moment maintaining this script and prettying it up isn't a huge priority.
 2.  Rename and move the output file to directory from which user called the script
 
 # Background
-I wrote this dockerized version after I discovered that Festival seemed to crash a lot on newer versions of Ubuntu.
+I wrote this dockerized version after I discovered that Festival (the text2wave command in particular) seemed to crash a lot on newer versions of Ubuntu.
