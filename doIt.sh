@@ -14,3 +14,4 @@ rm -rf ${volname}/*
 cp ${filename} ${volname}/toConvert
 
 docker run --mount type=bind,source=${volname},target=/ttsio tts:0.1
+docker ps -a | awk '{ print $1,$2 }' | grep tts | awk '{print $1}' | xargs -I {} docker rm {} && echo "Cleared dockerfile.  👍️😎️"
