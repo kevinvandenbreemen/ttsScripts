@@ -10,5 +10,4 @@ ADD ttsTool/sabler.sh /
 RUN mkdir resource
 ADD ttsTool/resource/* /resource/
 
-
-RUN ls -R
+CMD ./sabler.sh /ttsio/toConvert
